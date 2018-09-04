@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/api/questions/{questionId}/answers")
 public class ApiAnswerController {
     private static final Logger log = LoggerFactory.getLogger(ApiAnswerController.class);
-    
+
     @Autowired
     private QuestionRepository questionRepository;
 
